@@ -2,16 +2,12 @@
 # -*- coding: utf-8 -*-
 def majuscule(mot):
     resultat = ''
-    lettre = ''
     for lettre in mot:
         # TODO completer la fonction ici
-        chiffre = ord(lettre) - 32
-        resultat += chr(chiffre)
-
-    return resultat
         
-    
-  
+        resultat += lettre
+    return resultat
+
 
 if __name__ == '__main__':
     mots = [
